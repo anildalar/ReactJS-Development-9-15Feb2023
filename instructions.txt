@@ -16,3 +16,50 @@ Types of Compoent
 2. React Class Compoent      (Outdated)
 
 
+{
+	//1. P:V
+	//2. Methods
+}
+
+
+how reactJs application loads
+
+npm start -> react-scripts start
+								-> index.js
+											-> index.html
+														(Render)
+
+npm start ---> WebPack(Bundler) ---> Babel(JS Compiler) ----> Website launch
+
+
+Newer JS Code ---> Babel(JS Compiler)  ----> Older JS Code
+
+
+Block LEvel Ements can not contain another block element
+
+
+Types of Element
+1.Inline Element
+2.Block Elements
+
+Expression Evalulator
+`${}` Pure JS
+
+{}  ReactJs
+
+
+* ReactJs is built on top of NodeJs Framework
+
+Import/Export
+
+
+Every COmpoent can have its own data
+1. Inside
+2. OUtside    <------- Some APIs
+
+
+A  = Anil
+
+			Z  Hello Anil
+
+import Comp1,{Comp2} from '../somelocation';
